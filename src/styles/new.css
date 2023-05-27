@@ -1,0 +1,36 @@
+/* CSS HEX */
+--denim: #0f55c9;
+--catskill-white: #f2f6f9;
+--half-baked: #86b6d7;
+--pigeon-post: #acc7dd;
+--dodger-blue: #39bbfa;
+--copper-rust: #914a57;
+--aluminium: #a4a7b5;
+--carrot-orange: #f09b27;
+--chino: #cec0a9;
+
+
+/* SCSS HEX */
+$denim: #0f55c9;
+$catskill-white: #f2f6f9;
+$half-baked: #86b6d7;
+$pigeon-post: #acc7dd;
+$dodger-blue: #39bbfa;
+$copper-rust: #914a57;
+$aluminium: #a4a7b5;
+$carrot-orange: #f09b27;
+$chino: #cec0a9;
+
+
+/* SCSS RGB */
+--denim: rgba(15,85,201,1);
+--catskill-white: rgba(242,246,249,1);
+--half-baked: rgba(134,182,215,1);
+--pigeon-post: rgba(172,199,221,1);
+--dodger-blue: rgba(57,187,250,1);
+--copper-rust: rgba(145,74,87,1);
+--aluminium: rgba(164,167,181,1);
+--carrot-orange: rgba(240,155,39,1);
+--chino: rgba(206,192,169,1);
+
+

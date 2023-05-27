@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { NavLink } from "react-router-dom";
+import { Payment } from "./pages/Payment";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <nav className="app-nav">
+        <ul>
+          <li>
+            <NavLink to='/home'>Home</NavLink>
+          </li>
+          <li>
+            <NavLink to='/about'>About us</NavLink>
+          </li>
+          <li>
+            <NavLink to='/contact'>Contact</NavLink>
+          </li>
+          <li>
+            <NavLink to='/'>Payment</NavLink>
+          </li>
+        </ul>
+      </nav>
+      <Payment />
     </div>
   );
 }

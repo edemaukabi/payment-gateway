@@ -1,0 +1,21 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 2rem;
+    height: 2rem;
+    background-color:rgb(2, 167, 249, 1);
+    border-radius: 50%;
+    margin-right: 0.7rem;
+    padding: 0.5rem;
+}
+
+.logo-icon {
+    color: aliceblue;
+}
+
+.logo-text span {
+    font-weight: 700;
+}

@@ -1,0 +1,129 @@
+.payment-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+    /* width: 300px; */
+  }
+
+  .payment-form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: .9rem;
+    position: relative;
+  }
+
+  .payment-form-gridicon {
+    position: absolute;
+    color:rgb(66, 64, 64);
+    width: 2rem;
+    bottom: 1.4rem;
+    right: 10px;
+  }
+  
+  .payment-form label {
+    margin-bottom: 3px;
+  }
+  
+  .payment-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgba(242,246,249,1);
+  }
+
+  .payment-form input:focus {
+    border: 1px solid #007bff;
+  }
+  
+  .payment-form .card-type {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .payment-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .card-number p:first-child {
+    margin-bottom: 1px;
+  }
+
+  .card-number p:nth-child(2) {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    color: rgb(66, 64, 64);
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+.card-number {
+    position: relative;
+}
+
+  .card-number-label {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .card-number-label-edit {
+    color:#007bff;
+  }
+
+  .edit-icon {
+    margin-right: 2px;
+    width: 1.5rem;
+  }
+
+  .card-number-card {
+    position: absolute;
+    width: 2rem;
+    bottom: 0.8rem;
+    left: 10px;
+  }
+
+  .card-number-icon {
+    position: absolute;
+    color:#007bff;
+    width: 2rem;
+    bottom: 1.2rem;
+    right: 10px;
+  }
+
+  .card-number-icontick { 
+    position: absolute;
+    color:rgba(242,246,249,1);
+    width: 2rem;
+    bottom: 1.4rem;
+    right: 10px;
+  }
+
+  .expiry-span {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .expiry input{
+    width: 5rem
+  }
+  
