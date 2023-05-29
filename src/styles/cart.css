@@ -1,0 +1,81 @@
+.cart {
+    margin-top: 2rem;
+    /* padding: 2rem; */
+    position: relative;
+}
+
+.card {
+    position:absolute;
+    width: 12rem;
+    height: 15rem;
+    padding: 2rem;
+
+    /* background-image: linear-gradient(0deg, white, white 90%, blue);
+  background-position: top center;
+  background-repeat: no-repeat; */
+
+    /* border: 1px solid rgba(242,246,249,1);
+    border-top: 4px solid blue; */
+    background-color: white;
+    border-radius: 10px;
+    right: 3.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.card-chip-image {
+    width: 25px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.card-chip-icon {
+    font-size: 1.4rem;
+    margin-bottom: 5px;  
+}
+
+.cart-details {
+    position: absolute;
+    width: 18rem;
+    height: 25rem;
+    background-color:rgb(226, 230, 232);
+    border-radius: 1rem;
+    top: 4rem;
+}
+
+.card-top-spot {
+    position: absolute;
+    top: 0.25rem;
+    right: 5rem;
+    width: 2rem;
+    height: 0.001px;
+    background-color: rgb(5, 5, 86);
+    box-shadow: 0 0 20px 5px blue;
+
+}
+
+.card-top {
+    position: absolute;
+    top: -5px;
+    right: 4.5rem;
+    width: 3rem;
+    height: 4px;
+    background-color: blue;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.card-content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-logo {
+    width: 3rem;
+}

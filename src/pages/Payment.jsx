@@ -18,7 +18,7 @@ export const Payment = () => {
         </div>
         <div className='payment__body'>
           <CardForm data={paymentData}/>
-          {/* <Cart /> */}
+          <Cart />
         </div>
       </div>
     )

@@ -35,6 +35,7 @@
   
   .payment-form input {
     padding: 10px;
+    font-weight: 600;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -44,6 +45,8 @@
 
   .payment-form input:focus {
     border: 1px solid #007bff;
+    color: #007bff;
+    font-weight: 600;
   }
   
   .payment-form .card-type {
